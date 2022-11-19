@@ -1,0 +1,56 @@
+@font-face {
+    font-family: InterBol;
+    src: url("../assets/fonts/static/Inter-ExtraBold.ttf");
+}
+.n-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+
+ }
+
+ .n-left{
+    flex:1;
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    font-size: 2.5rem;
+    font-family: InterBol;
+ }
+ .n-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color:var(--orange)
+ }
+
+ .n-right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    justify-content: center;
+ }
+ ul{
+    flex:10;
+ }
+ .n-list>ul{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    margin-right: 4rem;
+    text-decoration: none;
+
+
+ }
+ li{
+    text-decoration: none;
+    
+ }
+ ul>li:hover{
+    
+    color:var(--red-color);
+    cursor: pointer;
+
+ }
+ 
+ 

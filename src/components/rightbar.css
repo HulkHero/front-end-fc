@@ -1,0 +1,21 @@
+p{
+    font-weight: 500;
+}
+p+div {
+    opacity: 0.8;
+}
+
+p+h5:hover {
+    color:var(--orange-color);
+    cursor: pointer;
+
+}
+
+div > h5:first-child:hover{
+    color:var(--orange-color);
+    cursor: pointer;
+}
+.head:hover{
+    color:var(--red-color);
+    cursor:pointer;
+}
